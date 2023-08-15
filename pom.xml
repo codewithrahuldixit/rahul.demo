@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>rahul.demo</artifactId>
+	<artifactId>rahul.demo </artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>rahul.demo</name>
@@ -37,6 +37,7 @@
 	</dependencies>
 
 	<build>
+	<finalName>rahul.HelloWorld</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
